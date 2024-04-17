@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #e2e3ec;
+}
+
+#timer {
+    font-size: 80px;
+    margin-bottom: 100px;
+    top: 60px;
+}
+
+#controls {
+    margin-top: 200px;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(back3.png);
+    background-size: 100%;
+}
+
+*, *:before, *:after {
+    position: relative;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    content: '';
+    display: block;
+}
+
+.khungdh {
+    width: 300px;
+    height: 300px;
+    left: 40%;
+    top: 18%;
+}
+
+.nut {
+    width: 70px;
+    height: 30px;
+    background-color: rgb(31, 23, 121);
+    color: aliceblue;
+    box-shadow: 0 3px #e0d4d4;
+}
+
+.nut:hover {
+    background-color: #aabdaa;
+}
+
+.nut:active {
+    background-color: #646964;
+    box-shadow: 0 5px #434665;
+    transform: translateY(4px);
+    
+}
+
+.tg {
+    width: 220px;
+    height: 90px;
+    background-color: rgba(68, 59, 67, 0.356);
+    left: 13%;
+    border-radius: 10px;
+    color: aliceblue;
+}
